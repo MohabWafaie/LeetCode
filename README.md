@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0345-reverse-vowels-of-a-string](https://github.com/MohabWafaie/LeetCode/tree/master/0345-reverse-vowels-of-a-string) |
+| [1777-determine-if-two-strings-are-close](https://github.com/MohabWafaie/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1894-merge-strings-alternately](https://github.com/MohabWafaie/LeetCode/tree/master/1894-merge-strings-alternately) |
 ## Array
 |  |
@@ -47,4 +48,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1392-find-the-difference-of-two-arrays](https://github.com/MohabWafaie/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
+| [1777-determine-if-two-strings-are-close](https://github.com/MohabWafaie/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
+## Sorting
+|  |
+| ------- |
+| [1777-determine-if-two-strings-are-close](https://github.com/MohabWafaie/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
+## Counting
+|  |
+| ------- |
+| [1777-determine-if-two-strings-are-close](https://github.com/MohabWafaie/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
 <!---LeetCode Topics End-->
