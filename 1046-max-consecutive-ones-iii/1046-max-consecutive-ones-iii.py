@@ -10,12 +10,10 @@ class Solution:
                     maxi = max(count, maxi)
                     k -= 1
                 elif count > 0:
-                    while(count > 0):
+                    while(count >= 0):
                         if nums[j] == 1:
                             count -= 1
                             j += 1
-                            if count == 0:
-                                j += 1
                         else :
                             j += 1
                             break
