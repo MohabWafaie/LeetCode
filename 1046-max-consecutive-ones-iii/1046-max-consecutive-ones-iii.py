@@ -11,9 +11,7 @@ class Solution:
                     k -= 1
                 elif count > 0:
                     while(count > 0):
-                        print("entered")
                         if nums[j] == 1:
-                            print("j = 1")
                             count -= 1
                             j += 1
                             if count == 0:
@@ -25,7 +23,6 @@ class Solution:
             else:
                 count += 1
                 maxi = max(maxi, count)
-            print(count)
         return maxi
 
 
