@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0345-reverse-vowels-of-a-string](https://github.com/MohabWafaie/LeetCode/tree/master/0345-reverse-vowels-of-a-string) |
+| [0394-decode-string](https://github.com/MohabWafaie/LeetCode/tree/master/0394-decode-string) |
 | [1777-determine-if-two-strings-are-close](https://github.com/MohabWafaie/LeetCode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1894-merge-strings-alternately](https://github.com/MohabWafaie/LeetCode/tree/master/1894-merge-strings-alternately) |
 | [2470-removing-stars-from-a-string](https://github.com/MohabWafaie/LeetCode/tree/master/2470-removing-stars-from-a-string) |
@@ -61,9 +62,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0394-decode-string](https://github.com/MohabWafaie/LeetCode/tree/master/0394-decode-string) |
 | [2470-removing-stars-from-a-string](https://github.com/MohabWafaie/LeetCode/tree/master/2470-removing-stars-from-a-string) |
 ## Simulation
 |  |
 | ------- |
 | [2470-removing-stars-from-a-string](https://github.com/MohabWafaie/LeetCode/tree/master/2470-removing-stars-from-a-string) |
+## Recursion
+|  |
+| ------- |
+| [0394-decode-string](https://github.com/MohabWafaie/LeetCode/tree/master/0394-decode-string) |
 <!---LeetCode Topics End-->
