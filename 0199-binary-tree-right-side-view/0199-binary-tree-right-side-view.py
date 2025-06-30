@@ -6,19 +6,18 @@
 #         self.right = right
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
-            self.stack = []
-            self.helper(root, 0)
-            return self.stack
-    stack = []
-    def helper(self, root, current):
-        if (not root):
-            return None
-        if current == len(self.stack):
-            self.stack.append(root.val)
-        if root.right:
-            max_node = self.helper(root.right, current + 1)
-        if root.left:
-            max_node = self.helper(root.left, current + 1)
+        stack = []
+        def helper(root, current):
+            if (not root):
+                return None
+            if current == len(stack):
+                stack.append(root.val)
+            if root.right:
+                max_node = helper(root.right, current + 1)
+            if root.left:
+                max_node = helper(root.left, current + 1)
+        helper(root, 0)
+        return stack
         
         
 
