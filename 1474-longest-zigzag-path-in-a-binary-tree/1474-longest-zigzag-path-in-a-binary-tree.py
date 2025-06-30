@@ -8,7 +8,6 @@ class Solution:
     def longestZigZag(self, root: Optional[TreeNode]) -> int:
         return self.helper(root, "root", 0)
     def helper(self, root, d, count):
-        count = count
         if d == "right":
             if root.left:
                 count += 1
