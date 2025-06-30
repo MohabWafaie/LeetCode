@@ -7,20 +7,19 @@
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
             self.stack = []
-            self.helper(root, 0, 0)
+            self.helper(root, 0)
             return self.stack
     stack = []
-    def helper(self, root, max_node, current):
+    def helper(self, root, current):
         if (not root):
             return None
-        if current == 0 or current > max_node:
+        if current == len(self.stack):
             self.stack.append(root.val)
-            max_node = current
         if root.right:
-            max_node = self.helper(root.right, max_node, current + 1)
+            max_node = self.helper(root.right, current + 1)
         if root.left:
-            max_node = self.helper(root.left, max_node, current + 1)
-        return max_node
+            max_node = self.helper(root.left, current + 1)
+        
         
 
         
