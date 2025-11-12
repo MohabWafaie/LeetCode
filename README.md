@@ -128,4 +128,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0783-search-in-a-binary-search-tree](https://github.com/MohabWafaie/LeetCode/tree/master/0783-search-in-a-binary-search-tree) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/MohabWafaie/LeetCode/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
